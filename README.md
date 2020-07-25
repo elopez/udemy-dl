@@ -182,6 +182,12 @@ Example:
 </code></pre>
 
 
+## ***Docker usage***
+
+There is a Docker image available that you can use to run udemy-dl:
+
+    docker run --rm -it -v $PWD/out:/out docker.pkg.github.com/r0oth3x49/udemy-dl/udemy-dl COURSE_URL [other arguments]
+
 
 ## ***Todo (for next release)***
  - Restructure code.
